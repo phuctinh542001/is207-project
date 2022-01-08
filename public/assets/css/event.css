@@ -1,0 +1,30 @@
+#page__event {
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+}
+
+#page__event h2 {
+    display: block;
+    margin-top: 32px;
+    padding-left: 24px;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    line-height: 56px;
+}
+
+.page__event--img {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.page__event--img img {
+    width: 80%;
+}
+
+.page__event--info p {
+    font-size: 20px;
+}

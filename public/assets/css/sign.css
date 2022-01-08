@@ -1,0 +1,98 @@
+#page__signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 24px;
+    width: 60%;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+}
+
+#page__signup h1 {
+    margin-top: 52px; 
+    margin-bottom: 24px; 
+    width: 100%;
+    color: white; 
+    font-size: 60px; 
+    text-align: center;
+}
+
+.page__signup--info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 20px;
+}
+
+.signup__item {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.signup__item {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 50%;
+}
+
+.page__signup--input {
+    padding-left: 4px;
+    width: 30%; 
+    height: 32px;
+}
+
+.btn--submit {
+    margin: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 160px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+}
+
+.page__sign--message {
+    margin: auto;
+    margin-bottom: 24px;
+    width: 60%;
+    height: 52px;
+    background-color: var(--primary-color);
+    border-radius: 12px;
+    text-align: center;
+    line-height: 52px;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    #page__signup {
+        width: 100%;
+    }
+    
+    #page__signup h1 {
+        font-size: 48px;
+    }
+
+    .signup__item {
+        padding-left: 12px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .container-fluid {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .page__signup--input {
+        margin: auto;
+        width: 90%;
+    }
+}

@@ -1,0 +1,65 @@
+.page__artdetail--bg img {
+    width: 100%;
+    filter: brightness(60%);
+}
+
+.page__artdetail--img {
+    position: relative;
+    display: flex;
+    height: 200px;
+}
+
+.page__artdetail--item {
+    position: absolute;
+    top: -50%;
+    left: 10%;
+    display: flex;
+}
+
+.page__artdetail--img img {
+    width: 200px;
+    border: 4px solid white;
+    border-radius: 8px;
+}
+
+.page__artdetail--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 32px;
+}
+
+.page__artdetail--info h2 {
+    margin: 0;
+    font-size: 40px;
+    line-height: 60px;
+    color: white;
+}
+
+.page__artdetail--info p {
+    margin: 0;
+    font-size: 32px;
+    line-height: 60px;
+    color: white;
+}
+
+@media screen and (max-width: 576px) {
+    .page__artdetail--img {
+        height: 100px;
+    }
+
+    .page__artdetail--img img {
+        width: 100px;
+    }
+
+    .page__artdetail--info h2 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    
+    .page__artdetail--info p {
+        font-size: 24px;
+        line-height: 50px;
+    }
+}
